@@ -94,6 +94,17 @@ body {
   margin-top: 72px;
 }
 
+.footer .social-media {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .social-media > a {
   margin: 0px 4px;
+}
+
+.footer .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
