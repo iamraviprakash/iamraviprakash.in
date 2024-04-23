@@ -12,17 +12,6 @@ Welcome to my GitHub repository showcasing my web portfolio! This repository ser
 - [Technologies Used](#technologies-used)
 - [License](#license)
 
-## Introduction
-
-This web portfolio serves as a digital showcase of my work and capabilities. It includes sections such as:
-
-- About Me: A brief introduction to who I am and my background.
-- Projects: Highlights of the projects I've worked on, including descriptions and links.
-- Skills: An overview of the technologies and skills I possess.
-- Contact: How to get in touch with me.
-
-Feel free to explore and get to know more about me and my work!
-
 ## Features
 
 - Clean and modern design.
@@ -35,13 +24,6 @@ Feel free to explore and get to know more about me and my work!
 - HTML5
 - CSS3 (with Flexbox/Grid for layout and styling)
 - JavaScript (for interactive elements)
-- Bootstrap (optional, for additional styling and layout utilities)
-
-## Usage
-
-- Explore different sections by scrolling or using the navigation menu.
-- Click on project thumbnails or links to view more details about each project.
-- Fill out the contact form if you'd like to get in touch with me.
 
 ## License
 
