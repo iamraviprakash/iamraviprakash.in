@@ -177,6 +177,60 @@ body {
   line-height: 2.5rem;
 }
 
+/* Blog CSS */
+.blogs {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.blog {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background-color: #F5F5F5;
+  padding: 16px;
+  border-radius: 4px;
+}
+
+.blog .title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 4px 2px;
+}
+
+.blog .description {
+  font-size: 1.6rem;
+  padding: 4px 2px;
+}
+
+.blog .others {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+
+.blog .tags {
+  display: flex;
+  gap: 4px;
+}
+
+.blog .tag {
+  display: flex;
+  justify-content: center;
+  font-size: 1.6rem;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: #DEDEDE;
+}
+
+.blog .links {
+  align-self: center;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
 /* Footer CSS */
 .footer {
   display: flex;
