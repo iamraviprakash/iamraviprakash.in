@@ -1,6 +1,5 @@
 ![Static Badge](https://img.shields.io/badge/lighthouse-96%25-blue?logo=lighthouse&color=%2398C525)
 
-
 # Welcome to My Web Portfolio!
 
 ## Introduction
