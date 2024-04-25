@@ -69,6 +69,10 @@ body {
   padding: 8px 16px;
 }
 
+.cover-img {
+  aspect-ratio: 4 / 1
+}
+
 .content {
   display: grid;
   padding: 56px 96px;
@@ -99,6 +103,12 @@ body {
 .img-container {
   display: flex ;
   justify-content: center;
+}
+
+.img-container  img{
+  aspect-ratio: 1;
+  object-fit: contain; 
+  object-position: center;
 }
 
 /* Project CSS */
@@ -148,6 +158,10 @@ body {
 
 .project .links > a {
   margin-left: 8px;
+}
+
+.project .links img {
+  aspect-ratio: 1;
 }
 
 /* Learning */
