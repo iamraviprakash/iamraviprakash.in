@@ -1,3 +1,6 @@
+![Static Badge](https://img.shields.io/badge/lighthouse_performance-99%25-blue?logo=lighthouse&color=%2398C525)
+![Static Badge](https://img.shields.io/badge/best_practices-100%25-blue?logo=lighthouse&color=%2398C525)
+
 # Welcome to My Web Portfolio!
 
 ## Introduction
