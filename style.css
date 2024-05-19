@@ -79,7 +79,7 @@ body {
   padding: 56px 96px;
   grid-template-columns: minmax(300px, 1fr) minmax(300px, 1fr);
   column-gap: 36px;
-  row-gap: 80px;
+  row-gap: 40px;
   align-items: center;
 }
 
