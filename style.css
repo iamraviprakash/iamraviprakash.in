@@ -124,7 +124,6 @@ body {
 .project {
   display: flex;
   flex-direction: column;
-  gap: 8px;
   background-color: #F5F5F5;
   padding: 16px;
   border-radius: 4px;
@@ -204,7 +203,6 @@ body {
 .blog {
   display: flex;
   flex-direction: column;
-  gap: 8px;
   background-color: #F5F5F5;
   padding: 16px;
   border-radius: 4px;

@@ -11,9 +11,9 @@
 </head>
 
 <body>
-  <nav class="header">
+  <header class="header">
     <a href='/' aria-label="Link to home" class='logo-text'>Ravi Prakash</a>
-    <div class='action-btns'>
+    <nav class='action-btns'>
       <a href='https://drive.google.com/file/d/1Fjv8W4ac6juolaoFMYls8FxRCHFtUDaK/view?usp=sharing'
         aria-label="Google drive link for resume" target="_blank">
         <div class='resume-btn'>Resume</div>
@@ -21,49 +21,50 @@
       <a href='https://topmate.io/iamraviprakash' aria-label="Link to open topmate website" target="_blank">
         <div class='topmate-btn'>Connect on Topmate</div>
       </a>
-    </div>
-  </nav>
+    </nav>
+  </header>
   <picture>
     <source srcset="./assets/images/webp/cover-img.webp" type="image/webp">
     <img alt='It is a cover image' class='cover-img' width='100%' src='./assets/images/png/cover-img.png' />
   </picture>
-  <div class="content">
-    <div class='designation'>
+  <main class="content">
+    <section class='designation'>
       <div class='text'>Tech Lead <a href='https://www.linkedin.com/company/toddle'
           aria-label="Link to open toddle linkedin website">@Toddle</a></div>
       <div class='subtext'>prev: CEWiT, IIT Madras</div>
-    </div>
-    <div></div>
-    <div class='about'>
-      <span>Hi &#128075; there, I am Ravi. I am a </span><span><strong>creative developer</strong></span><span> who loves to
-        get hands dirty on </span><span><strong>designing interfaces</strong></span><span> as well as
-      </span><span><strong>coding</strong></span><span> in</span><span><strong> React and JS</strong></span><span>. And
-        I have been doing these for </span><span><strong>more than 4 years</strong></span><span>.</span>
-      <br>
-      <br>
-      <span>Other than the technical stuff, I like to hang out with people discussing philosophy, making memories with
+    </section>
+    <section> </section>
+    <section class='about'>
+      <p>
+        Hi &#128075; there, I am Ravi. I am a <strong>creative developer</strong> who loves to get hands dirty on
+        <strong>designing interfaces</strong> as well as <strong>coding</strong> in<strong> React and JS
+        </strong>. And I have been doing these for <strong>more than 4 years</strong>.
+      </p>
+      <p>
+        Other than the technical stuff, I like to hang out with people discussing philosophy, making memories with
         family and friends. In leisure, I do try to learn and play the ukulele, draw, and sing. It just refreshes the
         mind and the soul. Also, I invest some time in planning out future goals or volunteering in social
-        activities.</span>
-    </div>
-    <div class='img-container'>
+        activities.
+      </p>
+    </section>
+    <section class='img-container'>
       <picture>
         <source srcset="./assets/images/webp/about-img.webp" type="image/webp">
         <img alt='An illustration related to about section' src='./assets/images/png/about-img.png' width="400" />
       </picture>
-    </div>
-    <div class='img-container'>
+    </section>
+    <section class='img-container'>
       <picture>
         <source srcset="./assets/images/webp/projects-img.webp" type="image/webp">
         <img alt='An illustration related to project section' src='./assets/images/png/projects-img.png' width="250"
           style='opacity: 0.8;' />
       </picture>
-    </div>
-    <div class='projects'>
-      <div class='project'>
+    </section>
+    <section class='projects'>
+      <article class='project'>
         <div class='title'>Quickgram</div>
-        <div class='description'>Quick and disposable way to communicate with anyone anonymously. Create, use and delete
-          room as you wish.</div>
+        <p class='description'>Quick and disposable way to communicate with anyone anonymously. Create, use and delete
+          room as you wish.</p>
         <div class='others'>
           <div class='language'>
             <div class='dot-grey-1'></div>
@@ -85,10 +86,10 @@
             </a>
           </div>
         </div>
-      </div>
-      <div class='project'>
+      </article>
+      <article class='project'>
         <div class='title'>Movie Booking</div>
-        <div class='description'>Inspired from bookmyshow, decided to create a seat booking tool</div>
+        <p class='description'>Inspired from bookmyshow, decided to create a seat booking tool</p>
         <div class='others'>
           <div class='language'>
             <div class='dot-grey-1'></div>
@@ -113,7 +114,7 @@
             </a>
           </div>
         </div>
-      </div>
+      </article>
       <div class='foot-note'>More such hands-on on: <a href='https://replit.com/@iamraviprakash'
           aria-label="Link to open projects on replit.com" target="_blank">Replit.com</a> |
         <a href='https://glitch.com/@iamraviprakash' aria-label="Link to open projects on glitch.com"
@@ -121,10 +122,10 @@
         <a href='https://codesandbox.io/u/iamraviprakash' aria-label="Link to open projects on codesandbox.io"
           target="_blank">Codesandbox.com</a>
       </div>
-    </div>
-    <div class='learnings'>
-      <div class='learning'>
-        <div class='title'>Practicing at work</div>
+    </section>
+    <section class='learnings'>
+      <article class='learning'>
+        <h2 class='title'>Practicing at work</h2>
         <div class='subtitle'>The following points are the reflections on how I apply my learning in the daily job.
         </div>
         <ul>
@@ -133,8 +134,8 @@
           <li>Maintaining code quality through code reviews</li>
           <li>Mentoring junior and mid level developers</li>
         </ul>
-      </div>
-      <div class='learning'>
+      </article>
+      <article class='learning'>
         <div class='title'>Reading to improve myself <span>(Q2 2024)</span></div>
         <div class='subtitle'>Every quarter I try to learn different things to improvise myself in daily job. It can be
           a side project or a book reading or checking out some blogs. Here are the things I touched upon:</div>
@@ -146,29 +147,29 @@
               aria-label="An amazon affliate link to buy our iceberg is melting book" target="_blank"><strong>Our
                 Iceberg is Melting<sup>*</sup></strong></a> book</li>
         </ul>
-      </div>
+      </article>
       <div class='foot-note'>* Earns commission</div>
-    </div>
-    <div class='img-container'>
+    </section>
+    <section class='img-container'>
       <picture>
         <source srcset="./assets/images/webp/learning-img.webp" type="image/webp">
         <img alt='An illustration related to learning section' src='./assets/images/png/learning-img.png' width="250"
           style='opacity: 0.8;' />
       </picture>
-    </div>
-    <div class='img-container'>
+    </section>
+    <section class='img-container'>
       <picture>
         <source srcset="./assets/images/webp/blog-img.webp" type="image/webp">
         <img alt='An illustration related to blog section' src='./assets/images/png/blog-img.png' width="250"
           style='opacity: 0.8;' />
       </picture>
-    </div>
-    <div class='blogs'>
-      <div class='blog'>
+    </section>
+    <section class='blogs'>
+      <article class='blog'>
         <div class='title'>Multiple Servers Hosted On Private I.P Address And Accessed Through Single Public I.P.
           Address</div>
-        <div class='description'>The topic is about hosting two servers e.g server1 and server2 on a single public I.P.
-          address e.g. 10.0.0.1...</div>
+        <p class='description'>The topic is about hosting two servers e.g server1 and server2 on a single public I.P.
+          address e.g. 10.0.0.1...</p>
         <div class='others'>
           <div class='tags'>
             <div class='tag'>Networking</div>
@@ -179,12 +180,12 @@
               target="_blank">Read more</a>
           </div>
         </div>
-      </div>
-      <div class='blog'>
+      </article>
+      <article class='blog'>
         <div class='title'>Concept of Unicast, Multicast and Broadcast
         </div>
-        <div class='description'>There are three methods by which a packet can be sent to clients from server. To access
-          internet we (i.e. our systems) use TCP/IP protocols...</div>
+        <p class='description'>There are three methods by which a packet can be sent to clients from server. To access
+          internet we (i.e. our systems) use TCP/IP protocols...</p>
         <div class='others'>
           <div class='tags'>
             <div class='tag'>Networking</div>
@@ -194,10 +195,10 @@
               aria-label="Link to open Concept of Unicast, Multicast and Broadcast blog" target="_blank">Read more</a>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-  <div class="footer">
+      </article>
+    </section>
+  </main>
+  <footer class="footer">
     <div class='left'>
       <div class='logo-text'>Ravi Prakash</div>
       <div class='tagline'>build something crazy.</div>
@@ -233,7 +234,7 @@
       </div>
       <div class='copyright-text'>&copy; 2024-present Ravi Prakash. All Rights Reserved.</div>
     </div>
-  </div>
+  </footer>
 </body>
 
 </html>
