@@ -22,7 +22,29 @@
 </script>
 
 <body>
-    Unsupported screen
+    <picture>
+        <source srcset="./assets/images/webp/cover-img.webp" type="image/webp">
+        <img alt='It is a cover image' class='cover-img' width='100%' src='./assets/images/png/cover-img.png' />
+    </picture>
+    <div class="card">
+        <picture>
+            <source srcset="./assets/images/webp/unsupported-screen.webp" type="image/webp">
+            <img alt='An illustration related to unsupported screen' src='./assets/images/png/unsupported-screen.png'
+                width="60" />
+        </picture>
+        <div class="title">
+            Screen size not supported yet
+        </div>
+        <p class="subtitle">
+            <a aria-label="Link to open stats on mobile users"
+                href="https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet"><strong>Did you know that
+                    60% of web browsing is done on mobile devices?</strong></a> I don't want to miss this opportunity.
+            &#128556;
+            <br><br>
+            While I'm working on supporting for this, <strong>please use a device with a screen size greater than 800px,
+                such as a laptop or desktop.</strong>
+        </p>
+    </div>
 </body>
 
 </html>
